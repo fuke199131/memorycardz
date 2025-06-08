@@ -1,0 +1,11 @@
+{
+  "name": "MemoryCardz Codespace",
+  "dockerFile": "Dockerfile",
+  "postCreateCommand": "cd backend && npm install",
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode"]
+    }
+  }
+}

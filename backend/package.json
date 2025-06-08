@@ -1,0 +1,23 @@
+{
+  "name": "memorycardz-backend",
+  "version": "1.0.0",
+  "description": "Servidor backend para MemoryCardz con Stripe y entorno Railway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "stripe",
+    "memorycardz",
+    "node",
+    "backend",
+    "ecommerce"
+  ],
+  "author": "MemoryCardz Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "stripe": "^12.10.0"
+  }
+}
